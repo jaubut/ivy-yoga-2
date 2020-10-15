@@ -1,0 +1,35 @@
+{
+  "name": "ivy-yoga",
+  "version": "1.0.0",
+  "description": "Créateur de Valeur et de Mouvement Ivy Yoga est à la fois un Studio de Yoga, un Espace Locatif pour réaliser tes projets et une Galerie d’Art situé dans un grand loft industriel lumineux niché dans l’immeuble Impérial à Granby classé patrimoine culturel du Québec.",
+  "author": "jeremie-aubut",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/prismic": "^1.2.4",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "@prismicio/vue": "^2.0.7",
+    "nuxt": "^2.0.0",
+    "nuxt-sm": "^0.0.6",
+    "prismic-javascript": "^3.0.2",
+    "vue-essential-slices": "^0.2.0",
+    "vue-slicezone": "^0.0.28"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2"
+  }
+}

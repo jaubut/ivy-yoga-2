@@ -13,12 +13,12 @@ const theme = {
   AlternateGrid: {
     color: '#252525',
     eyebrow: {
-      color: '#FAC8A2'
+      color: '#B2BA9E'
     }
   },
   CallToAction: {
     eyebrow: {
-      color: 'pink'
+      color: '#B2BA9E'
     }
   }
 }

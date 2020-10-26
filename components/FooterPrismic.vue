@@ -8,11 +8,26 @@
         {{ $prismic.asText(menuLink.label) }}
       </prismic-link>
     </nav>
-    <form>
-      <p>Hello Dan,<br> Mon <label for="firstName">nom</label> est <input id="firstName" type="text" placeholder="nom"> et mon <label for="firstName">courriel</label> est <input id="email" type="email" placeholder="courriel"> et j'aimerais ne rien manquer des offres exclusives IVY.</p>
-      <a class="submit-button">
-        S'abonner
-      </a>
+    <form
+      id="mc-embedded-subscribe-form"
+      action="https://ivy-yoga.us5.list-manage.com/subscribe/post?u=969c1f8068212429343512f19&amp;id=112d464ab7"
+      method="post"
+      name="mc-embedded-subscribe-form"
+      class="validate"
+      target="_blank"
+      novalidate
+    >
+      <p>
+        Hello Dan,<br> Mon <label for="mce-FNAME">nom</label> est <input
+          id="mce-FNAME"
+          type="text"
+          value=""
+          name="FNAME"
+          class=""
+          placeholder="nom"
+        > et mon <label for="mce-EMAIL">courriel</label> est <input id="mce-EMAIL" placeholder="courriel" type="email" value="" name="EMAIL"> et j'aimerais ne rien manquer des offres exclusives IVY.
+      </p>
+      <input id="mc-embedded-subscribe" type="submit" value="M'ajouter" name="subscribe" class="submit-button">
     </form>
     <div class="social-link">
       <a href="https://www.facebook.com/ivyyoga.ca" target="_blank">
@@ -21,6 +36,12 @@
       <a href="https://www.instagram.com/ivyyoga.ca/" target="_blank">
         <i class="fab fa-instagram" />
       </a>
+    </div>
+    <div class="bottom">
+      <p>© Ivy Yoga</p>
+      <a href="mailto:espace@ivy-yoga.ca">espace@ivy-yoga.ca</a>
+      <a href="telto:5149149859">514-914-9859</a>
+      <p>Fait avec <i class="fas fa-heart"></i> au Québec par Jérémie Aubut</p>
     </div>
   </div>
 </template>
@@ -37,7 +58,7 @@ export default {
   grid-template: 10% 80% 10% / 10% 80% 10%;
   gap: 15px;
   padding: 50px 25px;
-  background: #B2BA9E;
+  background: rgb(250, 200, 162);
 }
 a {
   color: black;
@@ -49,9 +70,10 @@ nav {
 }
 nav a {
   padding: 5px 15px;
+  color: #252525;
 }
 a:hover {
-  color: rgb(250, 200, 162);
+  color: rgb(119, 100, 85);
   transition: 0.5s;
 }
 form {
@@ -68,7 +90,7 @@ form p {
   font-weight: bold;
   max-width: 700px;
   margin: 0;
-  color: rgb(250, 200, 162);
+  color: #252525;
 }
 input {
   border: none;
@@ -80,17 +102,8 @@ input {
 input::placeholder {
   color: white;
 }
-.submit-button {
-  margin: 25px 0;
-  padding: 0.25em 1.5em;
-  font-size: 1.75rem;
-  font-weight: bold;
-  background: rgb(250, 200, 162);
-  border-radius: 5px;
-  cursor: pointer;
-}
-.submit-button:hover {
-  color: #B2BA9E;
+input:focus {
+  outline: 0px;
 }
 .social-link {
   grid-area: 1/2/2/3;
@@ -103,8 +116,33 @@ input::placeholder {
 .social-link i {
   font-size: 1.5rem;
   padding: 0 15px;
-  color: rgb(250, 200, 162);
+  color: #BE845F;
   transition: 0.5s;
+}
+.submit-button {
+  margin: 25px 0;
+  padding: 0.25em 1.5em;
+  font-size: calc(1rem * var(--text-min-2xl));
+  font-weight: bold;
+  background: #BE845F;
+  color: #252525;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+}
+.submit-button:hover {
+  color: #252525;
+  background: #B2BA9E;
+}
+.footer-grid .bottom {
+  grid-area: 3/2/4/3;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  font-size: calc(0.5rem * var(--text-min-xl));
+}
+.footer-grid .bottom a {
+  font-weight: normal;
 }
 @media (max-width: 1001px) {
   .footer-grid {
@@ -119,12 +157,19 @@ input::placeholder {
   }
   form {
     grid-area: 3/2/4/3;
+    padding-bottom: 50px;
   }
   .social-link {
     grid-area: 1/2/2/3;
     justify-content: flex-start;
     align-items: center;
     margin-top: 25px;
+  }
+  .footer-grid .bottom {
+    padding: 25px;
+    grid-area: 3/2/4/3;
+    align-self: end;
+    flex-flow: wrap;
   }
 }
 </style>

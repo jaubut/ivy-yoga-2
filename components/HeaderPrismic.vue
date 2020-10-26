@@ -59,6 +59,7 @@ export default {
     flex-flow: row;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .logo img {
     width: 150px;
@@ -117,7 +118,7 @@ nav ul li a:hover {
     animation: ease-in-out;
   }
   .menu-mobile nav ul li a {
-    font-size: 2.5rem;
+    font-size: calc(1rem * var(--text-min-4xl));
     line-height: 5rem;
   }
 }

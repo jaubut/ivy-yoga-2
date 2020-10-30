@@ -26,6 +26,8 @@ export default {
     }, {
       src: 'https://kit.fontawesome.com/e007d1f7cc.js'
     }, {
+      src: 'https://www.powr.io/powr.js?platform=vuejs'
+    }, {
       src: 'https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.min.js'
     }]
   },
@@ -40,7 +42,7 @@ export default {
   /*
   ** Global CSS
   */
-  css: ['vue-essential-slices/src/styles/styles.scss'],
+  css: ['vue-essential-slices/src/styles/styles.scss', '~/assets/main.css'],
 
   /*
   ** Plugins to load before mounting the App
@@ -84,5 +86,9 @@ export default {
     extend (config, ctx) {},
 
     transpile: ['vue-slicezone', 'nuxt-sm']
-  }
+  },
+  storybook: {
+    stories: ['~/slices/**/*.stories.js']
+  },
+  ignore: ['**/*.stories.js']
 }

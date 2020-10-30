@@ -13,9 +13,9 @@
     />
     <div>
       <a class="link" href="https://www.google.com/maps/place/Ivy+Space+Yoga+-+Arts+%26+Community/@45.396964,-72.7283581,18z/data=!4m19!1m13!4m12!1m4!2m2!1d-72.7268652!2d45.3966786!4e1!1m6!1m2!1s0x4cc9cf185dab8e83:0x9ea453ef9f37abd5!2sivy+yoga+granby!2m2!1d-72.7273537!2d45.3967828!3m4!1s0x4cc9cf185dab8e83:0x9ea453ef9f37abd5!8m2!3d45.3967828!4d-72.7273537">166 Rue Cowie #108, Granby, QC J2G 3V5</a>
-      <h3>Nous trouvez</h3>
+      <h3>Nous trouver</h3>
       <p>Avec la COVID en ce moment, assure-toi d'avoir réserver ta classe avant de te présenter au studio.</p>
-      <a class="submit-button" href="https://mindbody.io/locations/ivy-espace-yoga-arts-communaute" target="_blank">Réserver</a>
+      <a class="ps-button ps-button--primary" href="https://mindbody.io/locations/ivy-espace-yoga-arts-communaute" target="_blank">Réserver</a>
     </div>
   </div>
 </template>
@@ -56,7 +56,7 @@ export default {
 .map-ivy {
     width: 50vw;
 }
-@media (max-width: 1001px) {
+@media (max-width: 875px) {
     .section-map-text {
         flex-flow: column-reverse wrap;
         padding: 32px 20px;

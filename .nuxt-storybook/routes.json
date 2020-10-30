@@ -1,0 +1,50 @@
+[
+  {
+    "name": "prismic-preview",
+    "path": "/preview",
+    "component": "/Users/jeremieaubut/GitHub/ivy-yoga-2/.nuxt-storybook/prismic/pages/preview.vue",
+    "_name": "_da75e56c"
+  },
+  {
+    "name": "a-propos",
+    "path": "/a-propos",
+    "component": "/Users/jeremieaubut/GitHub/ivy-yoga-2/pages/a-propos.vue",
+    "chunkName": "pages/a-propos",
+    "_name": "_35bcd200"
+  },
+  {
+    "name": "classes",
+    "path": "/classes",
+    "component": "/Users/jeremieaubut/GitHub/ivy-yoga-2/pages/classes.vue",
+    "chunkName": "pages/classes",
+    "_name": "_f40782ae"
+  },
+  {
+    "name": "horaire",
+    "path": "/horaire",
+    "component": "/Users/jeremieaubut/GitHub/ivy-yoga-2/pages/horaire.vue",
+    "chunkName": "pages/horaire",
+    "_name": "_4b1ca4ae"
+  },
+  {
+    "name": "tarifs",
+    "path": "/tarifs",
+    "component": "/Users/jeremieaubut/GitHub/ivy-yoga-2/pages/tarifs.vue",
+    "chunkName": "pages/tarifs",
+    "_name": "_51036a04"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/jeremieaubut/GitHub/ivy-yoga-2/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_08b68fd6"
+  },
+  {
+    "name": "uid",
+    "path": "/:uid",
+    "component": "/Users/jeremieaubut/GitHub/ivy-yoga-2/pages/_uid.vue",
+    "chunkName": "pages/_uid",
+    "_name": "_31e6fe9e"
+  }
+]

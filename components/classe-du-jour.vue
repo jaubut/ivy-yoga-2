@@ -1,11 +1,11 @@
 <template>
   <div class="section-photo-text">
-    <img src="https://images.prismic.io/ivy-yoga/2e85cdb0-ae98-4722-ba43-c140edf65b91_dimanche.png?auto=compress,format" alt="">
+    <img :src="'/horaire/' + today + '.png'" alt="">
     <div>
       <p>{{ today }}</p>
       <h3>Nos classes aujourd'hui</h3>
       <p>Si tu n'as pas d'abonnement, tu vas pouvoir en choisir un lors de ta réservation :).</p>
-      <a class="submit-button" href="https://mindbody.io/locations/ivy-espace-yoga-arts-communaute" target="_blank">Réserver</a>
+      <a class="ps-button ps-button--primary" href="https://mindbody.io/locations/ivy-espace-yoga-arts-communaute" target="_blank">Réserver</a>
     </div>
   </div>
 </template>
@@ -43,7 +43,7 @@ export default {
   font-size: calc(calc(1rem * var(--text-min-4xl)) + (var(--text-max-4xl) - var(--text-min-4xl)) * (100vw - 40rem) / (80 - 40));
   margin-bottom: 0;
 }
-@media (max-width: 1001px) {
+@media (max-width: 875px) {
     .section-photo-text {
         flex-flow: column-reverse wrap;
         padding: 32px 20px;

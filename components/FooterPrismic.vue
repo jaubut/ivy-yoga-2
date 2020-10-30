@@ -41,7 +41,7 @@
       <p>© Ivy Yoga</p>
       <a href="mailto:espace@ivy-yoga.ca">espace@ivy-yoga.ca</a>
       <a href="telto:5149149859">514-914-9859</a>
-      <p>Fait avec <i class="fas fa-heart"></i> au Québec par Jérémie Aubut</p>
+      <p>Fait avec <i class="fas fa-heart" /> au Québec par Jérémie Aubut</p>
     </div>
   </div>
 </template>
@@ -120,19 +120,24 @@ input:focus {
   transition: 0.5s;
 }
 .submit-button {
-  margin: 25px 0;
-  padding: 0.25em 1.5em;
-  font-size: calc(1rem * var(--text-min-2xl));
-  font-weight: bold;
+  display: block;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  padding: 1em 3em;
+  text-decoration: none;
+  font: inherit;
+  line-height: 1.3;
+  font-weight: 500;
+  transition: all 0.1s linear;
+  margin-top: 2rem;
+  margin-top: var(--v-margin);
   background: #BE845F;
-  color: #252525;
-  border-radius: 5px;
-  cursor: pointer;
   width: fit-content;
 }
 .submit-button:hover {
   color: #252525;
-  background: #B2BA9E;
+  background: #815f49;
 }
 .footer-grid .bottom {
   grid-area: 3/2/4/3;

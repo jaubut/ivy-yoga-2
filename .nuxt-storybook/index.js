@@ -13,12 +13,13 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_workbox_ede95fd8 from 'nuxt_plugin_workbox_ede95fd8' // Source: ./workbox.js (mode: 'client')
-import nuxt_plugin_nuxticons_5c6a6960 from 'nuxt_plugin_nuxticons_5c6a6960' // Source: ./nuxt-icons.js (mode: 'all')
 import nuxt_plugin_smresolver_352910a9 from 'nuxt_plugin_smresolver_352910a9' // Source: ./prismic/sm-resolver.js (mode: 'all')
 import nuxt_plugin_prismic_4a7ba3b6 from 'nuxt_plugin_prismic_4a7ba3b6' // Source: ./prismic/plugins/prismic.js (mode: 'all')
 import nuxt_plugin_prismiccomponents_67d8be16 from 'nuxt_plugin_prismiccomponents_67d8be16' // Source: ./prismic/plugins/prismic-components.js (mode: 'all')
 import nuxt_plugin_prismicpreview_f142c6b6 from 'nuxt_plugin_prismicpreview_f142c6b6' // Source: ./prismic/middleware/prismic_preview.js (mode: 'all')
+import nuxt_plugin_workbox_ede95fd8 from 'nuxt_plugin_workbox_ede95fd8' // Source: ./workbox.js (mode: 'client')
+import nuxt_plugin_meta_2bc97966 from 'nuxt_plugin_meta_2bc97966' // Source: ./pwa/meta.js (mode: 'all')
+import nuxt_plugin_icons_3c61fb89 from 'nuxt_plugin_icons_3c61fb89' // Source: ./pwa/icons.js (mode: 'all')
 import nuxt_plugin_axios_5ba538f8 from 'nuxt_plugin_axios_5ba538f8' // Source: ./axios.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -46,6 +47,13 @@ Vue.component('NChild', NuxtChild)
 // Component: <Nuxt>
 Vue.component(Nuxt.name, Nuxt)
 
+Object.defineProperty(Vue.prototype, '$nuxt', {
+  get() {
+    return this.$root.$options.$nuxt
+  },
+  configurable: true
+})
+
 Vue.use(Meta, {"keyName":"head","attribute":"data-n-head","ssrAttribute":"data-n-head-ssr","tagIDKeyName":"hid"})
 
 const defaultTransition = {"name":"page","mode":"out-in","appear":true,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
@@ -69,7 +77,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"ivy-yoga","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Créateur de Valeur et de Mouvement Ivy Yoga est à la fois un Studio de Yoga, un Espace Locatif pour réaliser tes projets et une Galerie d’Art situé dans un grand loft industriel lumineux niché dans l’immeuble Impérial à Granby classé patrimoine culturel du Québec."},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"ivy-yoga"},{"hid":"author","name":"author","content":"jeremie-aubut"},{"hid":"theme-color","name":"theme-color","content":"#fff"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"ivy-yoga"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"ivy-yoga"},{"hid":"og:description","name":"og:description","property":"og:description","content":"Créateur de Valeur et de Mouvement Ivy Yoga est à la fois un Studio de Yoga, un Espace Locatif pour réaliser tes projets et une Galerie d’Art situé dans un grand loft industriel lumineux niché dans l’immeuble Impérial à Granby classé patrimoine culturel du Québec."}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.e2790d59.json"},{"rel":"shortcut icon","href":"favicon.ico"}],"script":[{"src":"https:\u002F\u002Fcdn.polyfill.io\u002Fv2\u002Fpolyfill.min.js?features=Element.prototype.classList"},{"src":"https:\u002F\u002Fkit.fontawesome.com\u002Fe007d1f7cc.js"},{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Ffocus-visible@5.0.2\u002Fdist\u002Ffocus-visible.min.js"}],"style":[],"htmlAttrs":{"lang":"en"}},
+    head: {"title":"ivy-yoga","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Créateur de Valeur et de Mouvement Ivy Yoga est à la fois un Studio de Yoga, un Espace Locatif pour réaliser tes projets et une Galerie d’Art situé dans un grand loft industriel lumineux niché dans l’immeuble Impérial à Granby classé patrimoine culturel du Québec."}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"script":[{"src":"https:\u002F\u002Fcdn.polyfill.io\u002Fv2\u002Fpolyfill.min.js?features=Element.prototype.classList"},{"src":"https:\u002F\u002Fkit.fontawesome.com\u002Fe007d1f7cc.js"},{"src":"https:\u002F\u002Fwww.powr.io\u002Fpowr.js?platform=vuejs"},{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Ffocus-visible@5.0.2\u002Fdist\u002Ffocus-visible.min.js"}],"style":[]},
 
     store,
     router,
@@ -198,14 +206,6 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (process.client && typeof nuxt_plugin_workbox_ede95fd8 === 'function') {
-    await nuxt_plugin_workbox_ede95fd8(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_nuxticons_5c6a6960 === 'function') {
-    await nuxt_plugin_nuxticons_5c6a6960(app.context, inject)
-  }
-
   if (typeof nuxt_plugin_smresolver_352910a9 === 'function') {
     await nuxt_plugin_smresolver_352910a9(app.context, inject)
   }
@@ -220,6 +220,18 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_prismicpreview_f142c6b6 === 'function') {
     await nuxt_plugin_prismicpreview_f142c6b6(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_workbox_ede95fd8 === 'function') {
+    await nuxt_plugin_workbox_ede95fd8(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_meta_2bc97966 === 'function') {
+    await nuxt_plugin_meta_2bc97966(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_icons_3c61fb89 === 'function') {
+    await nuxt_plugin_icons_3c61fb89(app.context, inject)
   }
 
   if (typeof nuxt_plugin_axios_5ba538f8 === 'function') {

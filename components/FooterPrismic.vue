@@ -18,14 +18,14 @@
       novalidate
     >
       <p>
-        Hello Dan,<br> Mon <label for="mce-FNAME">nom</label> est <input
+        Hello Ivy,<br> Mon <label for="mce-FNAME">nom</label> est <input
           id="mce-FNAME"
           type="text"
           value=""
           name="FNAME"
           class=""
           placeholder="nom"
-        > et mon <label for="mce-EMAIL">courriel</label> est <input id="mce-EMAIL" placeholder="courriel" type="email" value="" name="EMAIL"> et j'aimerais ne rien manquer des offres exclusives IVY.
+        > et mon <label for="mce-EMAIL">courriel</label> est <input id="mce-EMAIL" placeholder="courriel" type="email" value="" name="EMAIL"> et j'aimerais ne rien manquer des offres exclusives Ivy.
       </p>
       <input id="mc-embedded-subscribe" type="submit" value="M'ajouter" name="subscribe" class="submit-button">
     </form>

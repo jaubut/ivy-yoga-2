@@ -48,13 +48,6 @@ export const state = () => ({
       description: '2/3 Flow Go (Vinyasa Yoga) & 1/3 Relax (mix de Yin, Therapeutique, Restoratif & Nidra Yoga). Cette séance est une combinaison parfaite de Vinyasa Yoga (mouvements debout) et de Yin Yoga (postures assises et allongées + relaxation). Un reset complet sur l’heure du midi afin de repartir pleinement revitalise pour le reste de la journée. Un cours tous niveaux qui offre quelques défis!',
       img: '/classes/updown.png',
       group: ['deposer', 'activer', 'depasser']
-    },
-    {
-      id: 8,
-      title: 'Qi Gong',
-      description: 'Le Qi Gong est une gymnastique traditionnelle chinoise et une science de la respiration fondée sur la connaissance et la maîtrise du souffle et qui associe mouvements lents, exercices respiratoires et concentration. Le terme signifie littéralement « réalisation ou accomplissement (gong) relatif au qi », ou « maîtrise du souffle ». Une pratique pour tous!',
-      img: '/classes/qigong.png',
-      group: ['deposer']
     }
   ]
 })

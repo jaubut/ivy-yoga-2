@@ -24,6 +24,7 @@
     "nuxt-sm": "^0.0.6",
     "prismic-javascript": "^3.0.2",
     "slice-machine-ui": "^0.0.38",
+    "vue-carousel": "^0.18.0",
     "vue-essential-slices": "^0.2.0",
     "vue-slicezone": "^0.0.28"
   },

@@ -85,6 +85,7 @@ h3 {
 }
 .ps__kicker {
   color: var(--color--primary);
+  font-size: xxx-large;
 }
 .submit-button {
   margin: 25px 0;

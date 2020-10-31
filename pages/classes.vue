@@ -2,16 +2,16 @@
   <div>
     <div class="grid-filter">
       <p @click="mood = null">
-        Tous
+        Tout
       </p>
       <p @click="mood = 'deposer'">
-        se déposer
+        Se déposer
       </p>
       <p @click="mood = 'activer'">
-        s'activer
+        S'activer
       </p>
       <p @click="mood = 'depasser'">
-        se dépasser
+        Se dépasser
       </p>
     </div>
     <div class="grid">
@@ -81,5 +81,10 @@ export default {
 }
 .grid-filter p:hover {
   color: var(--color--primary);
+}
+@media (max-width: 1001px) {
+  .grid-filter {
+    padding: 15px;
+  }
 }
 </style>

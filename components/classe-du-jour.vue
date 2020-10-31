@@ -4,7 +4,7 @@
     <div>
       <p>{{ today }}</p>
       <h3>Nos classes aujourd'hui</h3>
-      <p>Si tu n'as pas d'abonnement, tu vas pouvoir en choisir un lors de ta réservation :).</p>
+      <p>Si tu n'as pas d'abonnement, tu vas pouvoir en choisir un lors de ta réservation.</p>
       <a class="ps-button ps-button--primary" href="https://mindbody.io/locations/ivy-espace-yoga-arts-communaute" target="_blank">Réserver</a>
     </div>
   </div>
@@ -12,7 +12,12 @@
 
 <script>
 export default {
-  props: ['today']
+  props: {
+    today: {
+      type: String,
+      default: 'lundi'
+    }
+  }
 
 }
 </script>

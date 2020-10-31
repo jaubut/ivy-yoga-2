@@ -64,7 +64,8 @@ export default {
   },
   created () {
     // Add this.$nuxt in child instances
-    Vue.prototype.$nuxt = this
+    this.$root.$options.$nuxt = this
+
     if (process.client) {
       // add to window so we can listen when ready
       window.$nuxt = this

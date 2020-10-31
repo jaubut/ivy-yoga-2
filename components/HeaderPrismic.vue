@@ -62,7 +62,7 @@ export default {
     background-color: rgba(255, 255, 255, 0.5);
 }
 .logo img {
-    width: 150px;
+    width: 200px;
 }
 .site-header nav {
     display: flex;
@@ -113,13 +113,14 @@ nav ul li a:hover {
     background: white;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
     text-align: right;
     transition: 0.5s;
     animation: ease-in-out;
   }
   .menu-mobile nav ul li a {
-    font-size: calc(1rem * var(--text-min-4xl));
-    line-height: 5rem;
+    font-size: calc(0.8rem * var(--text-min-4xl));
+    line-height: 2.5rem;
   }
 }
 </style>

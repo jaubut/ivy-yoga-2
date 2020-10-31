@@ -78,6 +78,10 @@ h3 {
   box-sizing: border-box;
   margin: 0;
 }
+.ps {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
 .ps-alternate__modules {
   flex-flow: row wrap;
 }

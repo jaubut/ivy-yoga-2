@@ -55,6 +55,7 @@ export default {
     --color-green: hsl(78, 17%, 68%);
     --color-orange: hsl(24, 42%, 56%);
     --color-lila: hsl(328, 9%, 62%);
+    --v-margin: 1rem;
 }
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',

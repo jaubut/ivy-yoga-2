@@ -85,12 +85,17 @@ h3 {
 .ps-alternate__modules {
   flex-flow: row wrap;
 }
+.ps-button--secondary {
+  margin-right: auto;
+  margin-left: auto;
+}
 .ps-button {
   max-width: fit-content;
 }
 .ps__kicker {
   color: var(--color--primary);
   font-size: xxx-large;
+  margin: 0;
 }
 .submit-button {
   margin: 25px 0;

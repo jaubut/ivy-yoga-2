@@ -45,4 +45,9 @@ export default {
 .hero-elements p {
   color: var(--color-pink);
 }
+@media (max-width: 999px) {
+  .hero {
+    margin-top: -115px;
+  }
+}
 </style>

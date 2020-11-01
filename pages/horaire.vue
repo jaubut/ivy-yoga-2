@@ -5,7 +5,7 @@
       title="Des classes tous les jours"
       description="Pour tous les goûts"
     />
-    <carousel class="ps" :scroll-per-page="true">
+    <carousel class="ps" :scroll-per-page="true" :perPageCustom="[[320, 1], [1199, 4]]">
       <slide v-for="day in horaire" :key="day">
         <h2>{{ day }}</h2>
         <img :src="'/horaire/' + day + '.png'" :alt="day">
@@ -47,6 +47,9 @@ export default {
   border-radius: 8px;
   margin: 0.5em;
   padding: 0.5em;
+}
+.VueCarousel-inner {
+  flex-basis: auto !important;
 }
 @media (min-width: 999px) {
   .VueCarousel-slide {

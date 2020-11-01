@@ -3,7 +3,7 @@
     <p class="eye-brown">
       {{ eyeBrown }}
     </p>
-    <h1>{{ title }}s</h1>
+    <h1>{{ title }}</h1>
     <div class="ps__desc">
       <p>{{ description }}</p>
     </div>

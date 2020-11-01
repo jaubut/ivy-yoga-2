@@ -48,5 +48,11 @@ export default {
   color: var(--color-pink);
 }
 @media (max-width: 999px) {
+  .hero {
+    margin-top: -115px;
+    background-attachment: scroll;
+    align-items: flex-end;
+    padding-bottom: 50px;
+  }
 }
 </style>

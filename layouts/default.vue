@@ -83,6 +83,8 @@ h3 {
   padding-bottom: 2.5rem;
 }
 .ps-alternate__modules {
+  display: flex;
+  align-content: flex-start;
   flex-flow: row wrap;
 }
 .ps-button--secondary {
@@ -112,9 +114,8 @@ h3 {
   color: #252525;
   background: var(--color--primary--dark);
 }
-.ps-alternate__modules {
-  display: flex;
-  align-content: flex-start;
+.ps-alternate__module {
+  margin-right: auto;
 }
 .fade-enter-active, .fade-leave-active, body .fade-enter-active, body .fade-leave-active {
   transition: opacity 0.5s ease-in-out;
@@ -124,4 +125,10 @@ h3 {
 }
 .home-enter-active, .home-leave-active { transition: opacity .5s; }
 .home-enter, .home-leave-active { opacity: 0; }
+@media (max-width: 999px) {
+  .ps-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 </style>

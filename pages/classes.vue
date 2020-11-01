@@ -19,8 +19,14 @@
         <img :src="classe.img" alt="">
         <h1>{{ classe.title }}</h1>
         <p>{{ classe.description }}</p>
-        <a class="ps-button ps-button--primary" href="https://mindbody.io/locations/ivy-espace-yoga-arts-communaute" target="_blank">Réserver</a>
+        <a class="ps-button ps-button--primary" href="https://mindbody.io/locations/ivy-espace-yoga-arts-communaute" target="_blank">Réserver ma classe</a>
       </section>
+    </div>
+    <div class="ps video-background">
+      <video width="100%" height="fit-content" autoplay loop controls>
+        <source src="https://prismic-io.s3.amazonaws.com/ivy-yoga/4880be4d-4195-4e2a-980d-d32360030d6e_ivy-yoga-web-classe.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
   </div>
 </template>
@@ -81,6 +87,9 @@ export default {
 }
 .grid-filter p:hover {
   color: var(--color--primary);
+}
+.video-background {
+  min-height: 500px;
 }
 @media (max-width: 1001px) {
   .grid-filter {

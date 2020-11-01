@@ -10,6 +10,8 @@
 
 <script>
 export default {
+  components: {
+  }
 
 }
 </script>
@@ -46,8 +48,5 @@ export default {
   color: var(--color-pink);
 }
 @media (max-width: 999px) {
-  .hero {
-    margin-top: -115px;
-  }
 }
 </style>

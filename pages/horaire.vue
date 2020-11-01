@@ -5,7 +5,7 @@
       title="Des classes tous les jours"
       description="Pour tous les goûts"
     />
-    <carousel class="ps" :scroll-per-page="true" :perPageCustom="[[320, 1], [1199, 4]]">
+    <carousel class="ps" :scroll-per-page="true" :per-page-custom="[[320, 1], [1199, 4]]">
       <slide v-for="day in horaire" :key="day">
         <h2>{{ day }}</h2>
         <img :src="'/horaire/' + day + '.png'" :alt="day">
@@ -17,14 +17,11 @@
 
 <script>
 import SliceZone from 'vue-slicezone'
-import { Carousel, Slide } from 'vue-carousel'
 import CenterText from '~/components/text-center.vue'
 
 export default {
   components: {
     SliceZone,
-    Carousel,
-    Slide,
     CenterText
   },
   data () {
@@ -35,7 +32,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .VueCarousel-slide {
   display: flex;
   flex-flow: column;

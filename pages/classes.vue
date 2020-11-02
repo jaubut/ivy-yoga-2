@@ -4,13 +4,13 @@
       <p @click="mood = null">
         Tout
       </p>
-      <p @click="mood = 'deposer'">
+      <p @click="mood = 'deposer'" style="color:var(--color-terre);">
         Se déposer
       </p>
-      <p @click="mood = 'activer'">
+      <p @click="mood = 'activer'" style="color:var(--color--primary);">
         S'activer
       </p>
-      <p @click="mood = 'depasser'">
+      <p @click="mood = 'depasser'" style="color:var(--color-orange);">
         Se dépasser
       </p>
     </div>

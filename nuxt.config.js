@@ -58,6 +58,12 @@ export default {
   /*
   ** Nuxt.js modules
   */
+ sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://ivy-yoga.ca',
+    cacheTime: 1000 * 60 * 15,
+    generate: true
+  },
   modules: [// Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios', '@nuxtjs/pwa', // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv', ['@nuxtjs/prismic', {

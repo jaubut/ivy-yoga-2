@@ -1,9 +1,9 @@
 <template>
   <div class="section-photo-text">
-    <img :src="'/horaire/' + today + '.png'" alt="">
+    <img :src="'/horaire/' + currentDate + '.png'" alt="">
     <div>
       <p class="toCapitalFirst">
-        {{ today }}
+        {{ currentDate }}
       </p>
       <h3>Nos classes aujourd'hui</h3>
       <p>Si tu n'as pas d'abonnement, tu vas pouvoir en choisir un lors de ta réservation.</p>
@@ -14,13 +14,12 @@
 
 <script>
 export default {
-  props: {
-    today: {
-      type: String,
-      default: 'lundi'
+  computed: {
+    currentDate () {
+      const today = new Date()
+      return today.toLocaleString('fr-ca', { weekday: 'long' })
     }
   }
-
 }
 </script>
 

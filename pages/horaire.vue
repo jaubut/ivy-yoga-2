@@ -12,17 +12,24 @@
       </slide>
     </carousel>
     <slice-zone type="page" uid="horaire" />
+    <cta-text
+      url="https://mindbody.io/locations/ivy-espace-yoga-arts-communaute"
+      title="Réserver ma classe sur MINDBODY"
+      label="Réserver"
+    />
   </div>
 </template>
 
 <script>
 import SliceZone from 'vue-slicezone'
 import CenterText from '~/components/text-center.vue'
+import CtaText from '~/components/cta-center.vue'
 
 export default {
   components: {
     SliceZone,
-    CenterText
+    CenterText,
+    CtaText
   },
   data () {
     return {

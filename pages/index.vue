@@ -2,9 +2,7 @@
   <div>
     <hero-promo />
     <slice-zone type="page" uid="accueil" />
-    <classe-jour
-      :today="currentDate"
-    />
+    <classe-jour />
   </div>
 </template>
 
@@ -18,12 +16,6 @@ export default {
     SliceZone,
     ClasseJour,
     heroPromo
-  },
-  computed: {
-    currentDate () {
-      const today = new Date()
-      return today.toLocaleString('fr-ca', { weekday: 'long' })
-    }
   }
 }
 </script>

@@ -23,8 +23,8 @@
       </section>
     </div>
     <div class="ps video-background">
-      <video width="100%" height="fit-content" autoplay loop>
-        <source src="https://prismic-io.s3.amazonaws.com/ivy-yoga/a9f69555-4bf9-4fec-ba05-7f6d84a9f4be_classe-ivy-web.mov" type="video/mp4">
+      <video width="100%" height="fit-content" autoplay loop controls>
+        <source src="https://prismic-io.s3.amazonaws.com/ivy-yoga/7b6c8581-4088-4cee-980f-b0cecdbd24ea_classe-yoga-web.mov" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>

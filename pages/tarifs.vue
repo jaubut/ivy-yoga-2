@@ -1,7 +1,7 @@
 <template>
   <div>
     <hero-promo />
-    <slice-zone type="page" uid="tarifs" />
+    <slice-zone type="page" uid="tarifs1" />
   </div>
 </template>
 

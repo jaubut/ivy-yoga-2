@@ -1,9 +1,9 @@
 <template>
-  <div class="hero" style="background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.05)), url(https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format);">
+  <div class="hero" :style="'background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.05)), url(' + url + ');'">
     <div class="hero-elements">
-      <h3>Promo mois d'introduction pour seulement 50 $ !</h3>
-      <p>Pour les nouveaux chez Ivy</p>
-      <a class="ps-button ps-button--primary" href="https://mindbody.io/locations/ivy-espace-yoga-arts-communaute">Bénéficier de l'offre</a>
+      <h3>{{ title }}</h3>
+      <p>{{ description }}</p>
+      <a class="ps-button ps-button--primary" :href="ctaurl">{{ cta }}</a>
     </div>
   </div>
 </template>
@@ -11,8 +11,29 @@
 <script>
 export default {
   components: {
+  },
+  props: {
+    url: {
+      type: String,
+      default: 'https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format'
+    },
+    title: {
+      type: String,
+      default: "Promo mois d'introduction pour seulement 50 $ !"
+    },
+    description: {
+      type: String,
+      default: 'Pour les nouveaux chez Ivy'
+    },
+    cta: {
+      type: String,
+      default: "Bénéficier de l'offre"
+    },
+    ctaurl: {
+      type: String,
+      default: 'https://mindbody.io/locations/ivy-espace-yoga-arts-communaute'
+    }
   }
-
 }
 </script>
 
@@ -37,6 +58,7 @@ export default {
     display: flex;
     flex-flow: column;
     align-items: center;
+    text-align: center;
 }
 .hero-elements h3 {
     font-size: calc(1.25rem * var(--text-min-4xl));
@@ -45,7 +67,7 @@ export default {
     margin-bottom: 0em;
 }
 .hero-elements p {
-  color: var(--color-pink);
+  color: black;
 }
 @media (max-width: 999px) {
   .hero {

@@ -29,8 +29,6 @@ export default {
       src: 'https://www.powr.io/powr.js?platform=vuejs'
     }, {
       src: 'https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.min.js'
-    }, {
-      src: 'https://static.cdn.prismic.io/prismic.js?new=true&repo=ivy-yoga'
     }]
   },
 
@@ -60,7 +58,7 @@ export default {
   /*
   ** Nuxt.js modules
   */
- sitemap: {
+  sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://ivy-yoga.ca',
     cacheTime: 1000 * 60 * 15,

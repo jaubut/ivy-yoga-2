@@ -72,6 +72,9 @@ html {
 h3 {
   font-size: 4rem;
 }
+a:visited {
+  color: black;
+}
 *,
 *:before,
 *:after {

@@ -7,7 +7,7 @@
             <div class="ps__header">
               <prismic-rich-text :field="slice.primary.title" class="ps__title" />
             </div>
-            <prismic-link class="ps-button ps-button--primary" :field="slice.primary.link">
+            <prismic-link v-if="slice.primary.link.length" class="ps-button ps-button--primary" :field="slice.primary.link">
               {{ slice.primary.label }}
             </prismic-link>
             <prismic-rich-text :field="slice.primary.description" class="ps__desc" style="margin-top: 1em;" />

@@ -5,7 +5,7 @@
       title="Yoga virtuel"
       description="Durant la période en Zone Rouge, nous continuons de yogater en ligne. Viens nous rejoindre dès maintenant !"
       ctaurl="https://clients.mindbodyonline.com/classic/ws?studioid=431828&stype=43&prodid=100068"
-      cta="Accède à plus de 100 classes"
+      cta="Accède à plus de 120 classes"
     />
     <slice-zone type="page" uid="tarifs1" />
   </div>

@@ -1,34 +1,41 @@
 <template>
   <div>
-    <center-text
+    <cta-text
       eye-brown="Horaire"
-      title="Des classes tous les jours"
-      description="Pour tous les goûts"
+      url="https://clients.mindbodyonline.com/classic/ws?studioid=431828&stype=43&prodid=100068"
+      title="Plus de 120 cours disponible en ligne"
+      description="Seulement 30 $ pour 1 mois."
+      label="Acheter"
     />
+    <div class="ps__head">
+      <video class="ps" controls src="https://prismic-io.s3.amazonaws.com/ivy-yoga/1184fa1d-e870-4dda-ae76-16a94f8101e7_teaser-cours-en-ligne.mp4" />
+    </div>
+    <!--
     <carousel class="ps" :scroll-per-page="true" :per-page-custom="[[320, 1], [1199, 4]]">
       <slide v-for="day in horaire" :key="day">
         <h2>{{ day }}</h2>
         <img :src="'/horaire/' + day + '.png'" :alt="day">
       </slide>
     </carousel>
+    -->
     <slice-zone type="page" uid="horaire" />
+    <!--
     <cta-text
       url="https://mindbody.io/locations/ivy-espace-yoga-arts-communaute"
       title="Réserver ma classe sur MINDBODY"
       label="Réserver"
     />
+    -->
   </div>
 </template>
 
 <script>
 import SliceZone from 'vue-slicezone'
-import CenterText from '~/components/text-center.vue'
 import CtaText from '~/components/cta-center.vue'
 
 export default {
   components: {
     SliceZone,
-    CenterText,
     CtaText
   },
   data () {

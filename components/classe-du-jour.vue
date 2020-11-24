@@ -1,14 +1,19 @@
 <template>
   <div class="section-photo-text">
+    <!--
     <img :src="'/horaire/' + currentDate + '.png'" alt="">
+    -->
+    <img src="https://images.prismic.io/ivy-yoga/7aec5fc1-10bf-45de-a202-7a94637f4045_Animated+GIF-downsized_large+%281%29.gif?auto=compress,format" alt="">
     <div>
       <p class="toCapitalFirst">
         {{ currentDate }}
       </p>
       <h3>Nos classes aujourd'hui</h3>
-      <p>Si tu n'as pas d'abonnement, tu vas pouvoir en choisir un lors de ta réservation.</p>
+      <p>Accède à plus de 120 classes en ligne dès maintenant pour seulement <strong><a href="https://clients.mindbodyonline.com/classic/ws?studioid=431828&stype=43&prodid=100068" target="_blank">30 $ pour 1 mois!</a></strong></p>
+      <!--
       <p><img height="auto" width="25px" src="https://images.prismic.io/ivy-yoga/df016b1b-8224-43b4-ad66-8ee263f61487_camera.png?auto=compress,format" alt="">  Cours en studio et aussi diffusé en <a href="https://www.facebook.com/groups/2350913745213806/" target="_blank">ligne</a>.</p>
-      <a class="ps-button ps-button--primary" href="https://mindbody.io/locations/ivy-espace-yoga-arts-communaute" target="_blank">Réserver</a>
+      -->
+      <a class="ps-button ps-button--primary" href="https://clients.mindbodyonline.com/classic/ws?studioid=431828&stype=43&prodid=100068" target="_blank">Acheter</a>
     </div>
   </div>
 </template>
@@ -30,7 +35,7 @@ export default {
     flex-flow: row wrap;
     height: fit-content;
     width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 50px;
     background: #a8a19627;

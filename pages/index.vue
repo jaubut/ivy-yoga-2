@@ -20,15 +20,17 @@
             </div>
           </header>
         </div>
-        <carousel :per-page-custom="[[200, 1], [1199, 2]]">
-          <slide v-for="people in peoples" :key="people.name">
-            <div class="temoignage-body">
-              <img :src="people.photo" :alt="people.name">
-              <h2>{{ people.name }}</h2>
-              <p>{{ people.body }}</p>
-            </div>
-          </slide>
-        </carousel>
+        <client-only>
+          <carousel :per-page-custom="[[200, 1], [1199, 2]]">
+            <slide v-for="people in peoples" :key="people.name">
+              <div class="temoignage-body">
+                <img :src="people.photo" :alt="people.name">
+                <h2>{{ people.name }}</h2>
+                <p>{{ people.body }}</p>
+              </div>
+            </slide>
+          </carousel>
+        </client-only>
       </div>
     </section>
     <classe-jour />

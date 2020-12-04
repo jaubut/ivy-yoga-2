@@ -79,7 +79,7 @@ export default {
 .temoignage-body {
   background: var(--color--secondary);
   border-radius: 8px;
-  margin: 0.5em;
+  margin: 0.50em;
   display: grid;
   grid-template: 0.2fr 1fr 0.2fr/ 1fr 1fr 1fr;
   padding: 2rem;

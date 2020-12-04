@@ -7,8 +7,8 @@
       description="Seulement 30 $ pour 1 mois."
       label="Acheter"
     />
-    <div class="ps__head">
-      <video class="ps" controls src="https://prismic-io.s3.amazonaws.com/ivy-yoga/1184fa1d-e870-4dda-ae76-16a94f8101e7_teaser-cours-en-ligne.mp4" />
+    <div class="ps__head video-teaser-div">
+      <video class="ps video-teaser" controls src="https://prismic-io.s3.amazonaws.com/ivy-yoga/1184fa1d-e870-4dda-ae76-16a94f8101e7_teaser-cours-en-ligne.mp4" />
     </div>
     <!--
     <carousel class="ps" :scroll-per-page="true" :per-page-custom="[[320, 1], [1199, 4]]">
@@ -66,6 +66,18 @@ export default {
   .VueCarousel-slide {
     max-width: 350px;
     padding: 2em;
+  }
+}
+@media (max-width: 500px) {
+  .video-teaser {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .video-teaser-div {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-flow: column;
   }
 }
 </style>

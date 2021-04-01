@@ -19,7 +19,7 @@
         <img :src="classe.img" alt="">
         <h1>{{ classe.title }}</h1>
         <p>{{ classe.description }}</p>
-        <a class="ps-button ps-button--primary" href="https://mindbody.io/locations/ivy-espace-yoga-arts-communaute" target="_blank">Réserver ma classe</a>
+        <a class="ps-button ps-button--primary" href="https://espaceivy.fliipapp.com" target="_blank">Réserver ma classe</a>
       </section>
     </div>
     <div class="ps video-background">

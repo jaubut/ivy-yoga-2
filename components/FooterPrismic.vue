@@ -30,16 +30,16 @@
       <input id="mc-embedded-subscribe" type="submit" value="M'ajouter" name="subscribe" class="submit-button">
     </form>
     <div class="social-link">
-      <a href="https://www.facebook.com/ivyyoga.ca" target="_blank">
+      <a href="https://www.facebook.com/espaceivy.ca" target="_blank">
         <i class="fab fa-facebook-square" />
       </a>
-      <a href="https://www.instagram.com/ivyyoga.ca/" target="_blank">
+      <a href="https://www.instagram.com/espaceivy.ca" target="_blank">
         <i class="fab fa-instagram" />
       </a>
     </div>
     <div class="bottom">
-      <p>© Ivy Yoga</p>
-      <a href="mailto:espace@ivy-yoga.ca">espace@ivy-yoga.ca</a>
+      <p>© Espace Ivy</p>
+      <a href="mailto:info@espaceivy.ca">info@espaceivy.ca</a>
       <a href="telto:5149149859">514-914-9859</a>
       <p>Fait avec <i class="fas fa-heart" /> au Québec par Jérémie Aubut</p>
     </div>

@@ -2,22 +2,22 @@
   <div>
     <cta-text
       eye-brown="Horaire"
-      url="https://clients.mindbodyonline.com/classic/ws?studioid=431828&stype=43&prodid=100068"
-      title="Plus de 120 cours disponible en ligne"
-      description="Seulement 30 $ pour 1 mois."
-      label="Acheter"
+      url="https://espaceivy.fliipapp.com/horaire"
+      title="Horaire à partir du 5 avril"
+      description="Capacité limitée de 8 personnes par classe."
+      label="Réserver maintenant"
     />
+    <!--
     <div class="ps__head video-teaser-div">
       <video class="ps video-teaser" controls src="https://prismic-io.s3.amazonaws.com/ivy-yoga/1184fa1d-e870-4dda-ae76-16a94f8101e7_teaser-cours-en-ligne.mp4" />
     </div>
-    <!--
+    -->
     <carousel class="ps" :scroll-per-page="true" :per-page-custom="[[320, 1], [1199, 4]]">
       <slide v-for="day in horaire" :key="day">
         <h2>{{ day }}</h2>
         <img :src="'/horaire/' + day + '.png'" :alt="day">
       </slide>
     </carousel>
-    -->
     <slice-zone type="page" uid="horaire" />
     <!--
     <cta-text

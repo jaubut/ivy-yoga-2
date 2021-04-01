@@ -2,10 +2,10 @@
   <div>
     <hero-promo
       url="https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format"
-      title="Durant la période en Zone Rouge, nous continuons de yogater en ligne !"
+      title="Réouvert en zone orange pour des cours semi-privés ! Capacité limitée de 8 personnes par classe."
       description=""
-      ctaurl="/tarifs"
-      cta="En savoir plus"
+      ctaurl="https://espaceivy.fliipapp.com/horaire"
+      cta="Réserve ta classe maintenant"
     />
     <slice-zone type="page" uid="accueil" />
     <section class="ps">

@@ -4,7 +4,7 @@
       eye-brown="Horaire"
       url="https://espaceivy.fliipapp.com/horaire"
       title="Horaire à partir du 5 avril"
-      description="Capacité limitée de 8 personnes par classe."
+      description="Cours semi-privés, capacité limitée de 8 personnes par classe."
       label="Réserver maintenant"
     />
     <!--
@@ -40,7 +40,7 @@ export default {
   },
   data () {
     return {
-      horaire: ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche']
+      horaire: ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi']
     }
   }
 }

@@ -44,7 +44,7 @@ export default {
     --color-grey-90: hsl(0, 0%, 95%);
     --color-grey-53: hsl(0, 0%, 53%);
     --color-text-grey: var(--color-grey-53);
-    --color-pink: hsl(26, 95%, 81%);
+    --color-pink: hsl(24, 42%, 56%);
     --color-sand: hsl(49, 19%, 84%);
     --color-beige: hsl(34, 34%, 75%);
     --color-rose: hsl(346, 25%, 66%);
@@ -71,9 +71,6 @@ html {
 }
 h3 {
   font-size: 4rem;
-}
-a:visited {
-  color: black;
 }
 *,
 *:before,

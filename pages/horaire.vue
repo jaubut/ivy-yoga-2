@@ -2,22 +2,22 @@
   <div>
     <cta-text
       eye-brown="Horaire"
-      url="https://espaceivy.fliipapp.com/horaire"
-      title="Horaire à partir du 5 avril"
-      description="Cours semi-privés, capacité limitée de 8 personnes par classe."
-      label="Réserver maintenant"
+      url="mailto:info@espaceivy.ca"
+      title="Cours privé & semi-privé"
+      description="Offre toi un accompagnement sur mesure pour évoluer à ton rythme ! En solo, en dyade ou avec les occupants d’une même résidence privée."
+      label="Prend ton rendez-vous par courriel"
     />
     <!--
     <div class="ps__head video-teaser-div">
       <video class="ps video-teaser" controls src="https://prismic-io.s3.amazonaws.com/ivy-yoga/1184fa1d-e870-4dda-ae76-16a94f8101e7_teaser-cours-en-ligne.mp4" />
     </div>
-    -->
     <carousel class="ps" :scroll-per-page="true" :per-page-custom="[[320, 1], [1199, 4]]">
       <slide v-for="day in horaire" :key="day">
         <h2>{{ day }}</h2>
         <img :src="'/horaire/' + day + '.png'" :alt="day">
       </slide>
     </carousel>
+    -->
     <slice-zone type="page" uid="horaire" />
     <!--
     <cta-text

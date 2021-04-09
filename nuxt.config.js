@@ -5,7 +5,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Espace Ivy',
     meta: [{
       charset: 'utf-8'
     }, {

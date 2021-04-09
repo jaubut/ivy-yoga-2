@@ -2,10 +2,10 @@
   <div>
     <hero-promo
       url="https://images.prismic.io/ivy-yoga/ebb2f599-67bf-4937-8d8d-d1b8d5093e1a_cours+en+ligne.jpg?auto=compress,format"
-      title="Réouvert en zone orange pour des cours semi-privés !"
-      description="Capacité limitée de 8 personnes par classe."
-      ctaurl="https://espaceivy.fliipapp.com"
-      cta="Réserver mes classes"
+      title="Réserver vos cours privés et semi-privés dès maintenant !"
+      description=""
+      ctaurl="tel:5149149859"
+      cta="Contacte-nous"
     />
     <slice-zone type="page" uid="tarifs1" />
   </div>

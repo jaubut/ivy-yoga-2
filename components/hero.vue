@@ -68,6 +68,7 @@ export default {
 }
 .hero-elements p {
   color: black;
+  font-weight: bold;
 }
 @media (max-width: 999px) {
   .hero {

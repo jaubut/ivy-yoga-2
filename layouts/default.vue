@@ -21,7 +21,7 @@ export default {
   },
   head () {
     return {
-      title: 'Ivy Yoga'
+      title: 'Espace Ivy'
     }
   },
   // Called before rendering the layout (even for error page)

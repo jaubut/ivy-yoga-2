@@ -2,10 +2,10 @@
   <div>
     <hero-promo
       url="https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format"
-      title="Durant la période de fermeture, nous continuons de bouger ensemble !"
-      description="Pour seulement 15 $/mois accède à la banque de cours en ligne."
-      ctaurl="https://espaceivy.fliipapp.com/user/register/buy_membership/1/11635"
-      cta="Procure toi l'abonnement maintenant"
+      title="Réouverture potentielle le 14 juin !🤞🏼"
+      description="D'ici là, viens respirer et bouger en conscience avec nous en nature: à Granby au parc Daniel Johnson (derrière le chalet des patineurs), à Bromont à venir!"
+      ctaurl="https://www.facebook.com/espaceivy.ca"
+      cta="Prochain cours gratuit affiché sur Facebook"
     />
     <slice-zone type="page" uid="accueil" />
     <section class="ps">
@@ -52,14 +52,14 @@ export default {
     return {
       peoples: [
         {
-          name: 'Isa Romeo',
-          body: "Merci pour tous les cours donnés depuis le début du confinement. Cela m'a permis de commencer le yoga dans le confort de mon foyer. Et en plus il y en a pour tous les niveaux.",
-          photo: 'https://images.prismic.io/ivy-yoga/24b7cee1-4646-4001-bd26-6b017afec983_57502817_10219806570338657_7666133937478959104_n.jpg?auto=compress,format'
-        },
-        {
           name: 'Sonia Messier',
           body: 'Un endroit convivial, un accueil humain et chaleureux, un choix de cours intéressant et une approche novatrice et inspirante.',
           photo: 'https://images.prismic.io/ivy-yoga/a598ab9a-266a-490a-b3ef-4edf82bf523f_41688315_1117332848425482_3245234395019214848_n.jpg?auto=compress,format'
+        },
+        {
+          name: 'Darko Popovic',
+          body: 'J’adore les profs & la variété des cours, le prix est excellent et la vibe est belle. On ne peut demander mieux.',
+          photo: 'https://images.prismic.io/ivy-yoga/9641b7ac-5a7a-485d-95d4-ac1b738a8bb6_68817355_1116438748554342_3954748866170978304_n.jpg?auto=compress,format'
         },
         {
           name: 'Julie Jacques',
@@ -67,9 +67,9 @@ export default {
           photo: 'https://images.prismic.io/ivy-yoga/583dbbcd-6dab-4170-aec6-af1f1020b4c4_90625036_10220252220950083_7536738023233290240_n.jpg?auto=compress,format'
         },
         {
-          name: 'Darko Popovic',
-          body: 'J’adore les profs & la variété des cours, le prix est excellent et la vibe est belle. On ne peut demander mieux.',
-          photo: 'https://images.prismic.io/ivy-yoga/9641b7ac-5a7a-485d-95d4-ac1b738a8bb6_68817355_1116438748554342_3954748866170978304_n.jpg?auto=compress,format'
+          name: 'Isa Romeo',
+          body: "Merci pour tous les cours donnés depuis le début du confinement. Cela m'a permis de commencer le yoga dans le confort de mon foyer. Et en plus il y en a pour tous les niveaux.",
+          photo: 'https://images.prismic.io/ivy-yoga/24b7cee1-4646-4001-bd26-6b017afec983_57502817_10219806570338657_7666133937478959104_n.jpg?auto=compress,format'
         }
       ]
     }

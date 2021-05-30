@@ -31,23 +31,30 @@ export const state = () => ({
     {
       id: 5,
       title: 'RELAX',
-      description: 'Délicieux mélange de Yin, Thérapeutique, Restauratif et Nidra Yoga. Excellent pour calmer le mental, gagner en Flexibilité et se Relaxer. Ce cours est parfait pour lâcher prise complètement et pour une totale régénération. Un cours adapté, accessible à tous!',
+      description: 'Délicieux mélange de Yin, Thérapeutique, Restauratif et Nidra Yoga. Excellent pour calmer le mental, gagner en Flexibilité et se Relaxer. Ce cours est parfait pour lâcher prise complètement et pour une totale régénération.',
       img: '/classes/relax.png',
       group: ['deposer']
     },
     {
       id: 6,
       title: 'MOBILITÉ',
-      description: 'Cette classe aborde des exercices spécifiques d’alignement postural, des mouvements fonctionnels, des transitions entre deux postures. Plusieurs possibilités sont offertes et adaptées aux participants. Cours tous niveaux!',
+      description: 'Cette classe aborde des exercices spécifiques (alignement postural, mouvements fonctionnels, transitions entre deux postures). Plusieurs possibilités sont offertes et adaptées aux participants afin de développer une plus grande amplitude de mouvements dans son ensemble.',
       img: '/classes/mobilite.png',
       group: ['activer']
     },
     {
       id: 7,
-      title: 'UP & DOWN',
-      description: '2/3 Flow Go (Vinyasa Yoga) & 1/3 Relax (mix de Yin, Therapeutique, Restauratif & Nidra Yoga). Cette séance est une combinaison parfaite de Vinyasa Yoga (mouvements debout) et de Yin Yoga (postures assises et allongées + relaxation). Un reset complet sur l’heure du midi afin de repartir pleinement revitalisé pour le reste de la journée. Un cours tous niveaux qui offre quelques défis!',
+      title: 'YIN YANG',
+      description: "Première moitié du cours « Yang » où l'on bouge (type Flow For All) et l'autre partie « Yin » où l'on se détend et se dépose (type Relax). Cette séance est une combinaison parfaite de Vinyasa Yoga (mouvements debout) et de Yoga Restauratif (postures assises et allongées + relaxation). Un reset complet afin de repartir pleinement revitalisé.",
       img: '/classes/updown.png',
-      group: ['deposer', 'activer', 'depasser']
+      group: ['activer', 'depasser']
+    },
+    {
+      id: 8,
+      title: 'ENTRAÎNEMENT FONCTIONNEL',
+      description: "L'entraînement fonctionnel a pour objectif principal d'améliorer le mouvement global et le fonctionnement du corps en général. Notre approche met une emphase plus spécifique au niveau du tronc (thorax, abdomen et bassin) et de la ceinture scapulaire (épaules et les muscles qui s'y rattachent). L'entrainement se fait avec le poids du corps, c'est-à-dire sans machine de musculation. Une pratique stimulante afin de se remettre en forme ou de developper sa force!",
+      img: '/classes/fonctionnel.png',
+      group: ['activer', 'depasser']
     }
   ]
 })

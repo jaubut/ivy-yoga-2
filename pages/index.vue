@@ -3,7 +3,7 @@
     <hero-promo
       url="https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format"
       title="Réouverture potentielle le 14 juin !🤞🏼"
-      description="D'ici là, viens respirer et bouger en conscience avec nous en nature: à Granby au parc Daniel Johnson (derrière le chalet des patineurs), à Bromont à venir!"
+      description="D'ici là, viens respirer et bouger en conscience avec nous en nature: à Granby au parc Daniel Johnson (derrière le chalet des patineurs). Bromont à venir!"
       ctaurl="https://www.facebook.com/espaceivy.ca"
       cta="Prochain cours gratuit affiché sur Facebook"
     />

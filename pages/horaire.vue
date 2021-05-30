@@ -1,6 +1,14 @@
 <template>
   <div>
     <cta-text
+      class="ps-cta-gray"
+      eye-brown="Bouger en nature"
+      url="https://www.facebook.com/espaceivy.ca"
+      title="Réouverture potentielle le 14 juin !🤞🏼"
+      description="D'ici là, viens respirer et bouger en conscience avec nous en nature: à Granby au parc Daniel Johnson (derrière le chalet des patineurs). Bromont à venir!"
+      label="Prochain cours gratuit affiché sur Facebook"
+    />
+    <cta-text
       eye-brown="Horaire"
       url="mailto:info@espaceivy.ca"
       title="Cours privé & semi-privé"
@@ -61,6 +69,9 @@ export default {
 }
 .VueCarousel-inner {
   flex-basis: auto !important;
+}
+.ps-cta-gray {
+  background: var(--color-grey-90) !important;
 }
 @media (min-width: 999px) {
   .VueCarousel-slide {

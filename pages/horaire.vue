@@ -1,13 +1,18 @@
 <template>
   <div>
     <cta-text
-      class="ps-cta-gray"
-      eye-brown="Bouger en nature"
-      url="https://www.facebook.com/espaceivy.ca"
-      title="Réouverture potentielle le 14 juin !🤞🏼"
-      description="D'ici là, viens respirer et bouger en conscience avec nous en nature: à Granby au parc Daniel Johnson (derrière le chalet des patineurs). Bromont à venir!"
-      label="Prochain cours gratuit affiché sur Facebook"
+      eye-brown=""
+      url="https://espaceivy.fliipapp.com"
+      title="Réouverture le 14 juin !"
+      description=""
+      label="Réserve tes classes dès maintenant"
     />
+    <carousel class="ps" :scroll-per-page="true">
+      <slide v-for="day in horaire" :key="day">
+        <h2>{{ day }}</h2>
+        <img :src="'/horaire/' + day + '.png'" :alt="day">
+      </slide>
+    </carousel>
     <cta-text
       eye-brown="Horaire"
       url="mailto:info@espaceivy.ca"
@@ -15,25 +20,12 @@
       description="Offre toi un accompagnement sur mesure pour évoluer à ton rythme ! En solo, en dyade ou avec les occupants d’une même résidence privée."
       label="Prend ton rendez-vous par courriel"
     />
-    <!--
-    <div class="ps__head video-teaser-div">
-      <video class="ps video-teaser" controls src="https://prismic-io.s3.amazonaws.com/ivy-yoga/1184fa1d-e870-4dda-ae76-16a94f8101e7_teaser-cours-en-ligne.mp4" />
-    </div>
-    <carousel class="ps" :scroll-per-page="true" :per-page-custom="[[320, 1], [1199, 4]]">
-      <slide v-for="day in horaire" :key="day">
-        <h2>{{ day }}</h2>
-        <img :src="'/horaire/' + day + '.png'" :alt="day">
-      </slide>
-    </carousel>
-    -->
     <slice-zone type="page" uid="horaire" />
-    <!--
     <cta-text
-      url="https://mindbody.io/locations/ivy-espace-yoga-arts-communaute"
-      title="Réserver ma classe sur MINDBODY"
+      url="https://espaceivy.fliipapp.com"
+      title="Réserver ma classe sur FLiip"
       label="Réserver"
     />
-    -->
   </div>
 </template>
 
@@ -48,7 +40,7 @@ export default {
   },
   data () {
     return {
-      horaire: ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi']
+      horaire: ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche']
     }
   }
 }

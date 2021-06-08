@@ -1,7 +1,7 @@
 <template>
   <div>
     <hero-promo
-      url="https://images.prismic.io/ivy-yoga/ebb2f599-67bf-4937-8d8d-d1b8d5093e1a_cours+en+ligne.jpg?auto=compress,format"
+      url="https://ivy-yoga.prismic.io/medias/?what=images&open=YHCA2BEAACIAFoO6"
       title="Réouverture le lundi 14 juin !"
       description="Du mouvement illimité durant 12 semaines pour seulement 170 $ (soit aussi peu que 14 $ environ la semaine) !"
       ctaurl="https://espaceivy.fliipapp.com/user/register/buy_membership/1/13142"

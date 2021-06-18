@@ -3,7 +3,7 @@
     <cta-text
       eye-brown=""
       url="https://espaceivy.fliipapp.com"
-      title="Réouverture le 14 juin !"
+      title="Ouvert !"
       description=""
       label="Réserve tes classes dès maintenant"
     />

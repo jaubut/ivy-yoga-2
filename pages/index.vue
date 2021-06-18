@@ -2,8 +2,8 @@
   <div>
     <hero-promo
       url="https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format"
-      title="Réouverture le lundi 14 juin !"
-      description="12 semaines de mouvements illimités en studio, au parc et en ligne pour seulement 170 $. Offre valide jusqu'au 22 juin 2021."
+      title="Ouvert !"
+      description="Été Illimité ! 12 semaines de mouvements illimités en studio, au parc et en ligne pour seulement 170 $. Offre valide jusqu'au 22 juin 2021."
       ctaurl="https://espaceivy.fliipapp.com/user/register/buy_membership/1/13142"
       cta="Procure-toi l'offre spécial"
     />

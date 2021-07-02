@@ -3,8 +3,8 @@
     <hero-promo
       url="https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format"
       title="Ouvert !"
-      description="Été Illimité ! 12 semaines de mouvements illimités en studio, au parc et en ligne pour seulement 170 $. Offre valide jusqu'au 22 juin 2021."
-      ctaurl="https://espaceivy.fliipapp.com/user/register/buy_membership/1/13142"
+      description="Été Illimité ! 8 semaines de mouvements illimités en studio, au parc et en ligne pour seulement 120 $. Offre valide jusqu'au 11 juillet 2021."
+      ctaurl="https://espaceivy.fliipapp.com/user/register/buy_membership/1/13675"
       cta="Procure-toi l'offre spécial"
     />
     <slice-zone type="page" uid="accueil" />

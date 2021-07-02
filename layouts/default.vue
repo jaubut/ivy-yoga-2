@@ -4,6 +4,9 @@
     <nuxt />
     <map-ivy />
     <footer-prismic />
+    <a href="https://espaceivy.fliipapp.com/" target="_blank" class="essai-gratuit">
+      Essai Gratuit
+    </a>
   </div>
 </template>
 
@@ -116,6 +119,30 @@ h3 {
 }
 .ps-alternate__module {
   margin-right: auto;
+}
+.essai-gratuit {
+  position: fixed;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-flow: row;
+  bottom: 15px;
+  right: 15px;
+  height: 100px;
+  width: 100px;
+  background: var(--color--primary);
+  border-radius: 100%;
+  text-align: center;
+  font-size: large;
+  color: var(--color-orange) !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+.essai-gratuit:hover {
+  color: white;
+  text-decoration: none;
+  height: 105px;
+  width: 105px;
 }
 .fade-enter-active, .fade-leave-active, body .fade-enter-active, body .fade-leave-active {
   transition: opacity 0.5s ease-in-out;

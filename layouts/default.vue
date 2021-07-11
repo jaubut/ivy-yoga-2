@@ -5,7 +5,7 @@
     <map-ivy />
     <footer-prismic />
     <a href="https://espaceivy.fliipapp.com/" target="_blank" class="essai-gratuit">
-      Essai Gratuit
+      Essai<br>Gratuit
     </a>
   </div>
 </template>
@@ -124,6 +124,8 @@ h3 {
   position: fixed;
   display: flex;
   align-content: center;
+  justify-content: center;
+  justify-items: center;
   align-items: center;
   flex-flow: row;
   bottom: 15px;

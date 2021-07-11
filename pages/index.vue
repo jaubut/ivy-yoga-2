@@ -2,12 +2,14 @@
   <div>
     <hero-promo
       url="https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format"
-      title="Ouvert !"
-      description="Été Illimité ! 8 semaines de mouvements illimités en studio, au parc et en ligne pour seulement 120 $. Offre valide jusqu'au 11 juillet 2021."
+      title="Yoga et"
+      title2="Entraînement fonctionnel"
+      description="Bonne humeur à volonté et imperfections bienvenues!"
       ctaurl="https://espaceivy.fliipapp.com/user/register/buy_membership/1/13675"
-      cta="Procure-toi l'offre spécial"
+      cta="Consulter l'horaire"
     />
     <slice-zone type="page" uid="accueil" />
+    <classeJour />
     <section class="ps">
       <div class="ps__wrap">
         <div class="ps__head">
@@ -33,20 +35,19 @@
         </client-only>
       </div>
     </section>
-    <!--
-    <classe-jour />
-    -->
   </div>
 </template>
 
 <script>
 import SliceZone from 'vue-slicezone'
 import heroPromo from '~/components/hero.vue'
+import classeJour from '~/components/classe-du-jour'
 
 export default {
   components: {
     SliceZone,
-    heroPromo
+    heroPromo,
+    classeJour
   },
   data () {
     return {

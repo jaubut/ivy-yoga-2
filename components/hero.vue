@@ -1,7 +1,7 @@
 <template>
   <div class="hero" :style="'background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.05)), url(' + url + ');'">
     <div class="hero-elements">
-      <h3>{{ title }}</h3>
+      <h3>{{ title }}<br>{{ title2 }}</h3>
       <p>{{ description }}</p>
       <a class="ps-button ps-button--primary" :href="ctaurl">{{ cta }}</a>
     </div>
@@ -18,6 +18,10 @@ export default {
       default: 'https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format'
     },
     title: {
+      type: String,
+      default: "Promo mois d'introduction pour seulement 50 $ !"
+    },
+    title2: {
       type: String,
       default: "Promo mois d'introduction pour seulement 50 $ !"
     },

@@ -14,7 +14,7 @@
 
       <p><img height="auto" width="25px" src="https://images.prismic.io/ivy-yoga/df016b1b-8224-43b4-ad66-8ee263f61487_camera.png?auto=compress,format" alt="">  Cours en studio et aussi diffusé en <a href="https://www.facebook.com/groups/2350913745213806/" target="_blank">ligne</a>.</p>
       -->
-      <p>Des cours semi-privés avec une capacité limitée de 8 personnes par classe. Premier arrivé, premier servi.</p>
+      <p>Des cours chaque jour avec une capacité de 28 personnes par classe. <a href="https://espaceivy.fliipapp.com/horaire" target="_blank">Réservez dès maintenant via Fliip.</a></p>
       <a class="ps-button ps-button--primary" href="https://espaceivy.fliipapp.com/horaire" target="_blank">Réserve tes classes</a>
     </div>
   </div>

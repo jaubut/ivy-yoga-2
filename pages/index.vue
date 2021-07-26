@@ -2,9 +2,9 @@
   <div>
     <hero-promo
       url="https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format"
-      title="Yoga et"
-      title2="Entraînement fonctionnel"
-      description="Bonne humeur à volonté et imperfections bienvenues!"
+      title="Spécial août"
+      title2="5 semaines illimitées à 60 $"
+      description="Ça revient à 12 $ par semaine ! Valide du 1er août au 5 septembre."
       ctaurl="https://espaceivy.fliipapp.com/user/register/buy_membership/1/13675"
       cta="Consulter l'horaire"
     />

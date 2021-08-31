@@ -4,9 +4,9 @@
       url="https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format"
       title="Nouvel horaire"
       title2="Dès le 6 septembre"
-      description="20 cours, 9 styles, 8 facilitateurs (4 filles, 4 gars)!"
+      description="À partir du 1er septembre, Espace Ivy est dans l'obligation d'appliquer les normes émises par le gouvernement, merci d'apporter avec vous votre preuve vaccinale."
       ctaurl="/horaire"
-      cta="Consulter la nouvelle horaire"
+      cta="Consulter le nouvel horaire"
     />
     <slice-zone type="page" uid="accueil" />
     <classeJour />

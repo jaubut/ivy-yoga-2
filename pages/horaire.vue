@@ -15,10 +15,10 @@
     </carousel>
     <cta-text
       eye-brown="Horaire"
-      url="mailto:info@espaceivy.ca"
-      title="Cours privé & semi-privé"
-      description="Offre toi un accompagnement sur mesure pour évoluer à ton rythme ! En solo, en dyade ou avec les occupants d’une même résidence privée."
-      label="Prend ton rendez-vous par courriel"
+      url="/tarifs"
+      title="Cours privé à partir de 12 $ /personne*"
+      description="Réuni ton groupe (amis, famille ou collègues). Réserve une date et profite pleinement de ton expérience sur mesure. *Visite la page tarif pour connaître l'ensemble des options."
+      label="Voir les tarifs"
     />
     <slice-zone type="page" uid="horaire" />
     <cta-text

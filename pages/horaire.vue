@@ -2,7 +2,7 @@
   <div>
     <cta-text
       eye-brown=""
-      url="https://espaceivy.fliipapp.com"
+      url="#septembre"
       title="Ouvert !"
       description=""
       label="Réserve tes classes dès maintenant"

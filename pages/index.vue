@@ -2,11 +2,11 @@
   <div>
     <hero-promo
       url="https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format"
-      title="Spécial août"
-      title2="5 semaines illimitées à 60 $"
-      description="Ça revient à 12 $ par semaine ! Valide du 1er août au 5 septembre."
-      ctaurl="https://espaceivy.fliipapp.com/user/register/buy_membership/1/13675"
-      cta="Consulter l'horaire"
+      title="Nouvel horaire"
+      title2="Dès le 6 septembre"
+      description="20 cours, 9 styles, 8 facilitateurs (4 filles, 4 gars)!"
+      ctaurl="/horaire"
+      cta="Consulter la nouvelle horaire"
     />
     <slice-zone type="page" uid="accueil" />
     <classeJour />

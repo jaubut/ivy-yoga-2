@@ -4,7 +4,7 @@
       url="https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format"
       title="Nouvel horaire"
       title2="Dès le 6 septembre"
-      description="À partir du 1er septembre, Espace Ivy est dans l'obligation d'appliquer les normes émises par le gouvernement, merci d'apporter avec vous votre preuve vaccinale."
+      description=""
       ctaurl="/horaire"
       cta="Consulter le nouvel horaire"
     />

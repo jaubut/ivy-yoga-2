@@ -2,11 +2,11 @@
   <div>
     <hero-promo
       url="https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format"
-      title="Nouvel horaire"
-      title2="Dès le 6 septembre"
-      description=""
-      ctaurl="/horaire"
-      cta="Consulter le nouvel horaire"
+      title="Illimité à 70 $ / mois"
+      title2="Carte de 32 classes"
+      description="pour seulement 10 $ / classe"
+      ctaurl="/tarifs"
+      cta="Voir toutes les offres"
     />
     <slice-zone type="page" uid="accueil" />
     <classeJour />

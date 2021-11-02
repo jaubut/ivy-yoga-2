@@ -3,8 +3,8 @@
     <hero-promo
       url="https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format"
       title="Abonnement Illimité à partir de 72 $ / mois"
-      title2="À partir de 10 $ / classe"
-      description="sans abonnement"
+      title2="classe à partir de 10 $ sans abonnement"
+      description=""
       ctaurl="/tarifs"
       cta="Voir toutes les offres"
     />

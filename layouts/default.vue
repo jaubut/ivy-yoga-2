@@ -39,7 +39,7 @@ export default {
     --primary-hue: 78;
     --secondary-hue: 42;
     --color--primary: hsl(var(--primary-hue), 17%, 68%);
-    --color--secondary: hsl(var(--secondary-hue), 19%, 84%);
+    --color--secondary: var(--color-sand);
     --color--primary--dark: hsl(var(--primary-hue), 8%, 48%);
     --color--primary--darker: hsl(var(--primary-hue), 8%, 21%);
     --color-grey-0: hsl(0, 0%, 0%);
@@ -51,7 +51,7 @@ export default {
     --color-sand: hsl(49, 19%, 84%);
     --color-beige: hsl(34, 34%, 75%);
     --color-rose: hsl(346, 25%, 66%);
-    --color-terre: hsl(35, 16%, 62%);
+    --color-terre: hsl(34, 9%, 62%);
     --color-vert-fonce: hsl(34, 9%, 62%);
     --color-blue: hsl(205, 18%, 53%);
     --color-black: hsl(21, 4%, 15%);
@@ -136,7 +136,7 @@ h3 {
   border-radius: 100%;
   text-align: center;
   font-size: large;
-  color: var(--color-orange) !important;
+  color: white !important;
   text-decoration: none;
   cursor: pointer;
 }

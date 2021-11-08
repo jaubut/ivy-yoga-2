@@ -58,7 +58,7 @@ export default {
   grid-template: 10% 80% 10% / 10% 80% 10%;
   gap: 15px;
   padding: 50px 25px;
-  background: rgb(250, 200, 162);
+  background: var(--color-sand);
 }
 a {
   color: black;
@@ -116,7 +116,7 @@ input:focus {
 .social-link i {
   font-size: 1.5rem;
   padding: 0 15px;
-  color: #BE845F;
+  color: var(--color-green);
   transition: 0.5s;
 }
 .submit-button {
@@ -132,7 +132,7 @@ input:focus {
   transition: all 0.1s linear;
   margin-top: 2rem;
   margin-top: var(--v-margin);
-  background: #BE845F;
+  background: var(--color-green);
   width: fit-content;
 }
 .submit-button:hover {

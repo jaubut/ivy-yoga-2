@@ -84,13 +84,13 @@ nav ul li a {
     text-decoration: none;
 }
 nav ul li a:hover {
-    color: var(--color-green);
+    color: var(--color-blue);
     transition: 0.5s;
 }
 .site-header p {
   display: none;
   margin: 0;
-  color: var(--color-green);
+  color: var(--color-blue);
   font-weight: bold;
 }
 @media (max-width: 1001px) {

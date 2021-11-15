@@ -2,8 +2,8 @@
   <div>
     <cta-text
       eye-brown=""
-      url="#septembre"
-      title="Ouvert !"
+      url="https://espaceivy.fliipapp.com"
+      title="Horaire"
       description=""
       label="Réserve tes classes dès maintenant"
     />
@@ -13,6 +13,7 @@
         <img :src="'/horaire/' + day + '.png'" :alt="day">
       </slide>
     </carousel>
+    <!--
     <cta-text
       eye-brown="Horaire"
       url="/tarifs"
@@ -20,10 +21,11 @@
       description="Réuni ton groupe (amis, famille ou collègues). Réserve une date et profite pleinement de ton expérience sur mesure. *Visite la page tarif pour connaître l'ensemble des options."
       label="Voir les tarifs"
     />
+    -->
     <slice-zone type="page" uid="horaire" />
     <cta-text
       url="https://espaceivy.fliipapp.com"
-      title="Réserver ma classe sur FLiip"
+      title="Réserve tes classes dès maintenant via FLiip !"
       label="Réserver"
     />
   </div>

@@ -2,8 +2,8 @@
   <div>
     <hero-promo
       url="https://images.prismic.io/ivy-yoga/0e5d227e-6d0b-4eda-b1f8-feea573ac806_hero-1.jpg?auto=compress,format"
-      title="Abonnement illimité à partir de 72 $ / mois"
-      title2="Classe à partir de 10 $ sans abonnement"
+      title="Ton premier mois à 60 $"
+      title2="Valide 1 fois par personne."
       description=""
       ctaurl="/tarifs"
       cta="Voir toutes les offres"
@@ -35,6 +35,7 @@
         </client-only>
       </div>
     </section>
+    <div id="a46376a6_1604082980" class="powr-instagram-feed" style="background: white;" />
   </div>
 </template>
 

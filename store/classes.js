@@ -22,13 +22,6 @@ export const state = () => ({
       group: ['depasser']
     },
     {
-      id: 4,
-      title: 'YOGA DOUX',
-      description: 'Ce cours de type Hatha Yoga est accessible à tous et convient particulièrement aux personnes qui ont des limitations physiques, que ce soit lié à l’âge, la maladie, une blessure. Une combinaison de mouvements lents et de postures de type Thérapeutique. Excellent pour rester actif tout en douceur!',
-      img: '/classes/yogadoux.png',
-      group: ['deposer']
-    },
-    {
       id: 5,
       title: 'RELAX',
       description: 'Délicieux mélange de Yin, Thérapeutique, Restauratif et Nidra Yoga. Excellent pour calmer le mental, gagner en Flexibilité et se Relaxer. Ce cours est parfait pour lâcher prise complètement et pour une totale régénération.',
@@ -47,13 +40,6 @@ export const state = () => ({
       title: 'YIN YANG',
       description: "Première moitié du cours « Yang » où l'on bouge (type Flow For All) et l'autre partie « Yin » où l'on se détend et se dépose (type Relax). Cette séance est une combinaison parfaite de Vinyasa Yoga (mouvements debout) et de Yoga Restauratif (postures assises et allongées + relaxation). Un reset complet afin de repartir pleinement revitalisé.",
       img: '/classes/updown.png',
-      group: ['activer', 'depasser']
-    },
-    {
-      id: 8,
-      title: 'ENTRAÎNEMENT FONCTIONNEL',
-      description: "L'entraînement fonctionnel a pour objectif principal d'améliorer le mouvement global et le fonctionnement du corps en général. Notre approche met une emphase plus spécifique au niveau du tronc (thorax, abdomen et bassin) et de la ceinture scapulaire (épaules et les muscles qui s'y rattachent). L'entrainement se fait avec le poids du corps, c'est-à-dire sans machine de musculation. Une pratique stimulante afin de se remettre en forme ou de developper sa force!",
-      img: '/classes/fonctionnel.png',
       group: ['activer', 'depasser']
     }
   ]

@@ -27,5 +27,8 @@ export default {
 .ps-cta {
     background: var(--color-grey-90);
 }
+.ps-pricing-table__option__price {
+  font-weight: bolder;
+}
 
 </style>
